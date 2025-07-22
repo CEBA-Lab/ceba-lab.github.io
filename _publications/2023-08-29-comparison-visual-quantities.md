@@ -1,7 +1,7 @@
 ---
 title: "Comparison of visual quantities in single neurons in untrained brains"
 collection: publications
-permalink: /publication/2023-00-00-comparison-visual-quantities
+permalink: /publication/2023-08-29-comparison-visual-quantities
 date: 2023-08-29
 venue: "Cell Reports"
 citation: "HS Lee, W Choi*, D Lee, and Paik SB, 'Comparison of visual quantities in single neurons in untrained brains', Cell Reports, 2023."
