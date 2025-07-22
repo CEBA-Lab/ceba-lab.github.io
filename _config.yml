@@ -3,156 +3,157 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default"
-title                    : "Your Name / Site Title"
-title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+locale                         : "en-US"
+site_theme                     : "default"
+title                          : "Woochul Choi's CEBA Lab" # 랩 이름과 개인 이름 결합
+title_separator                : "-"
+name                           : &name "Woochul Choi" # 교수님 성함
+description                    : &description "Official website of the Cognition, Eye, Behavior and Action (CEBA) Lab led by Dr. Woochul Choi at the Korea Brain Research Institute." # 랩에 대한 상세 설명
+url                            : https://ceba-lab.github.io # 랩 홈페이지 주소
+baseurl                        : "" # The subpath of your site, e.g., "/blog" - Leave empty for user/organization pages
+repository                     : "ceba-lab/ceba-lab.github.io" # 여러분의 GitHub 저장소 이름
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  avatar                         : "profile.png" # 랩 대표 이미지 또는 교수님 프로필 이미지 (assets/images/ 에 위치)
+  name                           : "Woochul Choi" # 사이드바에 표시될 이름
+  pronouns                       : # example: "he/him"
+  bio                            : "Senior Researcher at KBRI, Computational neuroscientist." # 교수님 약력 및 연구실 핵심 관심사
+  location                       : "Daegu, South Korea" # 현재 위치
+  employer                       : "Korea Brain Research Institute (KBRI)" # 소속 기관
+  uri                            : # 개인 웹사이트 URL (아직 없다면 비워두세요)
+  email                          : "cebalab.official@gmail.com" # 랩 공식 이메일
 
   # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  academia                       : # URL (아카데미아 계정 URL)
+  arxiv                          : # URL - Update with the correct link to your profile (arXiv 프로필 URL)
+  googlescholar                  : "https://scholar.google.com/citations?user=Q-rBsuIAAAAJ" # 교수님 Google Scholar URL
+  impactstory                    : # URL (Impactstory 프로필 URL)
+  orcid                          : # "http://orcid.org/yourorcidurl" (ORCID ID URL)
+  pubmed                         : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow" (PubMed 프로필 또는 주요 논문 검색 URL)
+  researchgate                   : # URL (ResearchGate 프로필 URL)
+  scopus                         : # URL (Scopus 프로필 URL)
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  bitbucket                      : # Username - Update with your username on the site
+  codepen                        : # Username
+  dribbble                       : # Username
+  github                         : "ceba-lab" # 여러분의 GitHub 사용자명 또는 조직명
+  kaggle                         : # Username
+  stackoverflow                  : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
-  artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : # Username
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
+  artstation                     : # Username
+  bluesky                        : # "bsky.app" # Replace this with you Bluesky username
+  facebook                       : # Username
+  flickr                         : # Username
+  foursquare                     : # Username
+  goodreads                      : # Username
+  google_plus                    : # Username
+  keybase                        : # Username
+  instagram                      : # Username
+  lastfm                         : # Username
+  linkedin                       : # Username (LinkedIn 프로필 URL)
+  mastodon                       : # URL
+  medium                         : # URL
+  pinterest                      : # Username
+  soundcloud                     : # Username
+  steam                          : # Username
+  telegram                       : # URL
+  tumblr                         : # Username
+  twitter                        : # Username for X / Twitter (X/트위터 사용자명)
+  vine                           : # Username
+  weibo                          : # Username
+  wikipedia                      : # Username
+  xing                           : # Username
+  youtube                        : # Username
+  zhihu                          : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles' # 기존 "manuscripts"를 "Journal Articles"로 변경하여 더 명확하게
   conferences:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+teaser                         : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs                    : false # true, false (default)
+words_per_minute               : 160
+future                         : true
+read_more                      : "disabled" # if enabled, adds "Read more" links to excerpts
+talkmap_link                   : false       #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider                     : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            :
+    shortname                  :
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server                     : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid                      :
+    num_posts                  : # 5 (default)
+    colorscheme                : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields                : ['name', 'email', 'url', 'message']
+  branch                       : "gh-pages" # "master", "gh-pages"
+  commitMessage                : "New comment."
+  filename                     : comment-{@timestamp}
+  format                       : "yml"
+  moderation                   : true
+  path                         : "_data/comments/{options.slug}"
+  requiredFields               : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                      : "md5"
   generatedFields:
     date:
-      type               : "date"
+      type                     : "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format                 : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
+  hide                         : false       # change to true to hide the RSS feed in the footer
+  path                         : # blank (default) uses feed.xml
 
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+google_site_verification       :
+bing_site_verification         :
+alexa_site_verification        :
+yandex_site_verification       :
 
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username                     : &twitter # 여러분의 X (Twitter) 사용자명
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+  username                     :
+  app_id                       :
+  publisher                    :
+og_image                       : # Social media default site image (공유 시 기본 이미지 파일 경로)
+og_description                 : "Official website of the Cognition, Eye, Behavior and Action (CEBA) Lab led by Dr. Woochul Choi at the Korea Brain Research Institute." # 소셜 미디어 공유 시 설명
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                         : "Organization" # 랩은 'Person' 보다는 'Organization'에 해당
+  name                           : "CEBA Lab" # 랩 이름
   links: # An array of links to social media profiles
+    - "https://ceba-lab.github.io" # 랩 홈페이지
+    # 다른 소셜 미디어 링크들을 여기에 추가 (예: 랩 X/트위터, LinkedIn 등)
 
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider                     : "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
+    tracking_id                : # Google Analytics Tracking ID (UA-XXXXXXXXX-Y 또는 G-XXXXXXXXXX)
 
 
 # Reading Files
@@ -297,7 +298,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # 대한민국 서울 시간대로 설정
 
 
 # Plugins
