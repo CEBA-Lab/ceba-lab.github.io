@@ -19,4 +19,18 @@ Our work focuses on **VR navigation in humans and non-human primates**, **sequen
 - **Eye movement**: Using gaze signals to predict and validate internal decision states  
 - **Neural data analysis**: Multi-modal alignment of spikes, calcium imaging, and behavior for causal inference  
 
+---
+
+### Collaborations
+We actively collaborate with many leading groups worldwide, including:  
+
+- **KAIST** – Se-Bum Paik, Department of Brain and Cognitive Sciences  
+- **SKKU** – Won-Mok Shim, IBS Center for Neuroscience Imaging Research  
+- **KIST** – Jason Jang, Brain Science Institute  
+- **Duke-NUS Medical School (NUS)** – Hyunsoo Shawn Je  
+- **New York University (NYU)** – Dora Angelaki, Center for Neural Science  
+- **New York University (NYU)** – Anthony Movshon, Center for Neural Science  
+
+---
+
 More details will be updated soon (see [Publications]({{ '/publications/' | relative_url }})).
