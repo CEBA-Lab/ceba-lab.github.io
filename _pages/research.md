@@ -1,8 +1,9 @@
 ---
-layout: archive
+layout: single
 title: "Research"
 permalink: /research/
 author_profile: true
+author: woochul
 ---
 
 {% include base_path %}
@@ -12,7 +13,7 @@ author_profile: true
 We leverage **computational neuroscience** to quantify **latent cognitive states** that are expressed through gaze and action.  
 Our work focuses on **VR navigation in humans and non-human primates**, **sequential decision-making**, **changes of mind**, and **stimulus–action coupling**, combining interpretable models with real behavioral and eye movement data.
 
-![Naturalistic navigation & gaze analysis]({{ '/assets/FutureResearch_2025.png' | relative_url }}){: .align-center width="80%" }
+![Naturalistic navigation & gaze analysis]({{ '/images/FutureResearch_2025.png' | relative_url }}){: .align-center width="80%" }
 
 ### Focus
 - **Computational models**: Bayesian, state-space, and biologically constrained models with emphasis on interpretability  
