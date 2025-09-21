@@ -10,7 +10,7 @@ author_profile: true
 # Contact CEBA Lab
 
 **Email**  
-cebalab.official@gmail.com  
+choiwc1128@kbri.re.kr
 
 **Address**  
 Korea Brain Research Institute (KBRI)  
