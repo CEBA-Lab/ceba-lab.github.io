@@ -32,4 +32,4 @@ _In preparation_
 * **W Choi***, HS Lee, SB Paik. *Stimulus-specific Eye Motion Drives Perceptual Decisions under Ambiguity.* in prep, 2024.  
 * **W Choi***, P Alefantis, G Andreadakis, D Angelaki. *Primate Gaze Behavior Reflects Change of Mind in a Naturalistic Navigation Task.* in prep, 2024.  
 
-For a full list, see my [Google Scholar profile](https://scholar.google.com/citations?user=PS_CX0AAAAAJ).
+For a full list, see my [Google Scholar profile](https://scholar.google.com/citations?user=Q-rBsuIAAAAJ).
