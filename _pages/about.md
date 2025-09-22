@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 ---
+### We are hiring!
+If you are interested, please send your CV to choiwc1128@kbri.re.kr
 
 ### About the Cognition, Eye, Behavior and Action (CEBA) Lab
 
